@@ -1,0 +1,15 @@
+{
+  "name": "surfingtours",
+  "version": "1.0.0",
+  "description": "Surfing Tour Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/rick-love/surf_tours.git"
+  },
+  "author": "Rick Love",
+  "license": "MIT"
+}
