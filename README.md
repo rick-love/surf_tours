@@ -49,3 +49,23 @@ Server JS / Config.env
 Created the config file for storing variables and passwords
 
 Added GitIgnore File and created a new git repository to track Changes
+
+
+MongoDB - mongoose
+
+In Mongo UI - Create Project, Database, and Collection. 
+Add and Test DB connection string in server.js, then delete Collection in Mongo UI.
+
+Using the MVC Pattern will need to create a models folder, add tourModel.js
+In tourModel.js:
+    Create a Schema for Tour data to be inserted into database
+
+tourController.js:
+    Require tourModel
+    Refactor Creat Tour to use Async / Await
+    Use a try / catch to create a new Tour
+    Get All Tours
+    .find()
+
+    Get Tour By Id
+    .findById(req.params.id)
