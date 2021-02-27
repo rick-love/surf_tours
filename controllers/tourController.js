@@ -36,7 +36,7 @@ exports.getTourById = async (req, res) => {
   } catch (error) {
     res.status(400).json({
       status: 'Fail',
-      message: 'Server Error',
+      message: error.message,
     });
   }
 };
@@ -55,7 +55,7 @@ exports.createTour = async (req, res) => {
   } catch (error) {
     res.status(400).json({
       status: 'Fail',
-      message: 'Invalid Data',
+      message: error.message,
     });
   }
 };

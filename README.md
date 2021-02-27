@@ -69,3 +69,14 @@ tourController.js:
 
     Get Tour By Id
     .findById(req.params.id)
+
+Tour Model - 
+
+
+Created Dev Data import script using the Command Line process.argv arguements:
+node dev-data/data/import-dev-data.js --import
+    if(process.argv[2] === '--import')
+        importData();
+node dev-data/data/import-dev-data.js --delete
+    if(process-argv[2] === '--delete')
+        deleteAllData();
